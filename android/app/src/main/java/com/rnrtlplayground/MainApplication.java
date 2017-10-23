@@ -1,4 +1,4 @@
-package com.rtldemo;
+package com.rnrtlplayground;
 
 import android.app.Application;
 
@@ -26,11 +26,6 @@ public class MainApplication extends Application implements ReactApplication {
           new MainReactPackage(),
             new ReactNativeLocalizationPackage()
       );
-    }
-
-    @Override
-    protected String getJSMainModuleName() {
-      return "index";
     }
   };
 
